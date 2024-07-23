@@ -1,0 +1,43 @@
+body {
+    background-color: #f1c395;
+    font-family: Arial, sans-serif;
+}
+
+.color{
+    border: 10px solid indianred;
+    text-align: center;
+padding: 10px;
+}
+#foods-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.food-item {
+    margin: 20px;
+    text-align: center;
+}
+
+.food-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+    margin: 5px;
+}
+
+label {
+    cursor: pointer;
+    color: #d40f0f;
+    font-size: 14px;
+}
+
+label:hover {
+    color: #eeb6b6;
+}
